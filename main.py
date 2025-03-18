@@ -25,6 +25,35 @@ if user_answer == 'B':
     score_counter += +1
 else:
     print(f"{user_answer} is incorrect. The correct answer is B")
-   
+
+print()
+
+print("(Michael Rua S. Maestre) 3. What event marked the official independence of the Philippines from the United States?")
+print("A) Proclamation of Philippine Independence (1898)        C) Tydings-McDuffie Act (1934)")
+print("B) Treaty of Paris (1898)                                D) Philippine Independence Day (1946)")
+
+user_answer = input("Enter your answer: ").upper()
+
+if user_answer == 'D':
+    print("Correct Answer: D) Philippine Independence Day (1946)")
+    score_counter += +1
+else:
+     print(f"{user_answer} is incorrect. The correct answer is D")
+
+print ()
+
+print("(Michael Rua S. Maestre) 4. Who was the only Philippine president to serve during both the Commonwealth and the Third Republic?")
+print("A) Sergio Osmeña                                C) Manuel L. Quezon")
+print("B) Manuel Roxas                                 D) Elpidio Quirino")
+
+user_answer = input("Enter your answer: ").upper()
+
+if user_answer == 'B':
+    print("Correct Answer: B) Manuel Roxas")
+    score_counter += +1
+else:
+     print(f"{user_answer} is incorrect. The correct answer is B")
+
 print()
 print(f"Congratulations! You got {score_counter} out of 10 items")
+
