@@ -83,5 +83,31 @@ else:
     print(f"{user_answer} is incorrect. The correct answer is D")  
 
 print()
+
+print("(Rica Genevive B. Salespara) 7. What was the name of the first smartphone released by IBM in 1994?") 
+print("A) BlackBerry                        C) Simon Personal Communicator")
+print("B) Nokia 9000 Communicator           D) Palm Pilot")
+
+user_answer = input("Enter your answer: ").upper()
+if user_answer == "C":
+    print("Correct Answer: C) Simon Personal Communicator")
+    score_counter += 1
+else:
+    print(f"{user_answer} is incorrect. The correct answer is C) Simon Personal Communicator")
+
+print ()
+
+print("(Rica Genevive B. Salespara) 8. Who is often referred to as the 'Father of Computers'?") 
+print("A) Charles Babbage                   C) Alan Turing")
+print("B) Steve Jobs                        D) Thomas Edison")
+
+user_answer = input("Enter your answer: ").upper()
+if user_answer == "A":
+    print("Correct Answer: A) Charles Babbage")
+    score_counter += 1
+else:
+    print(f"{user_answer} is incorrect. The correct answer is A) Charles Babbage")
+
+print()
 print(f"Congratulations! You got {score_counter} out of 10 items") 
 
