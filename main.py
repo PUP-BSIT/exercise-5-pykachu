@@ -55,5 +55,33 @@ else:
      print(f"{user_answer} is incorrect. The correct answer is B")
 
 print()
-print(f"Congratulations! You got {score_counter} out of 10 items")
+
+print("(Zcintilla R. Serquiña) 5. What color are the hottest stars?")
+print("A) Red                               C) Yelllow") 
+print("B) Blue                              D) White")
+
+user_answer = input("Enter your answer: ").upper()
+
+if user_answer == 'B':
+    print("Correct Answer: B) Blue")
+    score_counter += 1
+else:
+    print(f"{user_answer} is incorrect. The correct answer is B")
+   
+print()
+
+print("(Zcintilla R. Serquiña) 6. What is the correct arrangement of the Sun, Moon, and Earth during a lunar eclipse?")
+print("A) Sun - Moon - Earth             C) Earth - Sun - Moon")
+print("B) Moon - Sun - Earth             D) Sun - Earth - Moon")
+
+user_answer = input("Enter your answer: ").upper()
+
+if user_answer == 'D':
+    print("Correct Answer: D) Sun - Earth - Moon")
+    score_counter += 1
+else:
+    print(f"{user_answer} is incorrect. The correct answer is D")  
+
+print()
+print(f"Congratulations! You got {score_counter} out of 10 items") 
 
