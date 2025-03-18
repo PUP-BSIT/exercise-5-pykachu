@@ -8,7 +8,7 @@ user_answer = input("Enter your answer: ").upper()
 
 if user_answer == 'C':
     print("Correct Answer: C) United States")
-    score_counter += +1
+    score_counter += 1
 else:
     print(f"{user_answer} is incorrect. The correct answer is C")
    
@@ -22,7 +22,7 @@ user_answer = input("Enter your answer: ").upper()
 
 if user_answer == 'B':
     print("Correct Answer: B) Hiroshima and Nagasaki")
-    score_counter += +1
+    score_counter += 1
 else:
     print(f"{user_answer} is incorrect. The correct answer is B")
 
@@ -36,7 +36,7 @@ user_answer = input("Enter your answer: ").upper()
 
 if user_answer == 'D':
     print("Correct Answer: D) Philippine Independence Day (1946)")
-    score_counter += +1
+    score_counter += 1
 else:
      print(f"{user_answer} is incorrect. The correct answer is D")
 
@@ -50,7 +50,7 @@ user_answer = input("Enter your answer: ").upper()
 
 if user_answer == 'B':
     print("Correct Answer: B) Manuel Roxas")
-    score_counter += +1
+    score_counter += 1
 else:
      print(f"{user_answer} is incorrect. The correct answer is B")
 
